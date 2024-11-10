@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-info h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.personal-info p {
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #b3b9c0;
+}
+
+button:hover {
+    background-color: #b3b9c0;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .resume {
+        padding: 10px;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+}

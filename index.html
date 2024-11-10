@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="resume">
+        <!-- Header with Personal Information -->
+        <header class="resume-header">
+            <div class="profile-section">
+                <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="personal-info">
+                    <h1>Taha Ali</h1>
+                    <p>Contact: 0321-456789</p>
+                    <p>Email: taha@example.com</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Objective Section -->
+        <section class="objective">
+            <h2>Objective</h2>
+            <p>Passionate software engineer with a strong foundation in computer science, eager to solve challenging
+                problems and contribute to innovative projects. Skilled in multiple programming languages and
+                technologies with a commitment to continuous learning and professional growth.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <button id="toggle-education">Show Education</button>
+            <div id="education-content" class="hidden">
+                <p>MCS, ABC High School, 2015</p>
+                <p>ICS, ABC High School, 2017</p>
+                <p>Bachelor of Science in Computer Science, University of CS, 2021</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <button id="toggle-skills">Show Skills</button>
+            <div id="skills-content" class="hidden">
+                <ul>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>CSS / Html</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="work-experience">
+            <button id="toggle-work-experience">Work Experience</button>
+            <div id="work-experience-content" class="hidden">
+                <p>Intern at Tech Startup, 2021 - 2022</p>
+                <p>Software Engineer at XYZ Corp, 2022 - Present</p>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications">
+            <button id="toggle-certifications">Certifications</button>
+            <div id="certifications-content" class="hidden">
+                <p>Certified JavaScript Developer, ABC Institute, 2021</p>
+                <p>Certified TypeScript Specialist, ABC Institute, 2022</p>
+                <p>Certified React Developer, ABC Institute, 2023</p>
+            </div>
+        </section>
+
+        <!-- Personal Details Section -->
+        <section class="personal-details">
+            <button id="toggle-personal-details">Show Personal Details</button>
+            <div id="personal-details-content" class="hidden">
+                <p>Date of Birth: January 1, 1999</p>
+                <p>Address: 123 Street, 786 Town, karachi, Pakistan</p>
+                <p>Marital Status: Single</p>
+                <p>Languages: Sindhi (fluent), Urdu (Fluent), English (Intermediate)</p>
+                <P>Religion: Islam</P>
+
+            </div> 
+        </section>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
